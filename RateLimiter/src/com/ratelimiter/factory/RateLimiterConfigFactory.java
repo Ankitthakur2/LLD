@@ -18,9 +18,6 @@ public class RateLimiterConfigFactory {
         }
     }
     
-    public static FixedWindowConfig getConfig(UserType userType) {
-        return getFixedWindowConfig(userType);
-    }
     
     private static FixedWindowConfig getFixedWindowConfig(UserType userType) {
         switch (userType) {
